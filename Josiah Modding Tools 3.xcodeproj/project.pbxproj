@@ -14,6 +14,7 @@
 		8A3821EB28662D3A00395BE5 /* Josiah_Modding_Tools_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3821EA28662D3A00395BE5 /* Josiah_Modding_Tools_3Tests.swift */; };
 		8A3821F528662D3A00395BE5 /* Josiah_Modding_Tools_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3821F428662D3A00395BE5 /* Josiah_Modding_Tools_3UITests.swift */; };
 		8A3821F728662D3A00395BE5 /* Josiah_Modding_Tools_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3821F628662D3A00395BE5 /* Josiah_Modding_Tools_3UITestsLaunchTests.swift */; };
+		8A545E8528669271005C3788 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A545E8428669271005C3788 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8A545E8028669271005C3788 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8A3821D528662D3200395BE5 /* Josiah Modding Tools 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Josiah Modding Tools 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3821D828662D3200395BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +58,8 @@
 		8A3821F028662D3A00395BE5 /* Josiah Modding Tools 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Josiah Modding Tools 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3821F428662D3A00395BE5 /* Josiah_Modding_Tools_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Josiah_Modding_Tools_3UITests.swift; sourceTree = "<group>"; };
 		8A3821F628662D3A00395BE5 /* Josiah_Modding_Tools_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Josiah_Modding_Tools_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A545E8228669271005C3788 /* jmt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jmt; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A545E8428669271005C3788 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +84,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A545E7F28669271005C3788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +100,7 @@
 				8A3821D728662D3200395BE5 /* Josiah Modding Tools 3 */,
 				8A3821E928662D3A00395BE5 /* Josiah Modding Tools 3Tests */,
 				8A3821F328662D3A00395BE5 /* Josiah Modding Tools 3UITests */,
+				8A545E8328669271005C3788 /* jmt */,
 				8A3821D628662D3200395BE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +111,7 @@
 				8A3821D528662D3200395BE5 /* Josiah Modding Tools 3.app */,
 				8A3821E628662D3A00395BE5 /* Josiah Modding Tools 3Tests.xctest */,
 				8A3821F028662D3A00395BE5 /* Josiah Modding Tools 3UITests.xctest */,
+				8A545E8228669271005C3788 /* jmt */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +143,14 @@
 				8A3821F628662D3A00395BE5 /* Josiah_Modding_Tools_3UITestsLaunchTests.swift */,
 			);
 			path = "Josiah Modding Tools 3UITests";
+			sourceTree = "<group>";
+		};
+		8A545E8328669271005C3788 /* jmt */ = {
+			isa = PBXGroup;
+			children = (
+				8A545E8428669271005C3788 /* main.swift */,
+			);
+			path = jmt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +209,23 @@
 			productReference = 8A3821F028662D3A00395BE5 /* Josiah Modding Tools 3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8A545E8128669271005C3788 /* jmt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A545E8628669271005C3788 /* Build configuration list for PBXNativeTarget "jmt" */;
+			buildPhases = (
+				8A545E7E28669271005C3788 /* Sources */,
+				8A545E7F28669271005C3788 /* Frameworks */,
+				8A545E8028669271005C3788 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jmt;
+			productName = jmt;
+			productReference = 8A545E8228669271005C3788 /* jmt */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,6 +247,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 8A3821D428662D3200395BE5;
 					};
+					8A545E8128669271005C3788 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 8A3821D028662D3200395BE5 /* Build configuration list for PBXProject "Josiah Modding Tools 3" */;
@@ -216,6 +268,7 @@
 				8A3821D428662D3200395BE5 /* Josiah Modding Tools 3 */,
 				8A3821E528662D3A00395BE5 /* Josiah Modding Tools 3Tests */,
 				8A3821EF28662D3A00395BE5 /* Josiah Modding Tools 3UITests */,
+				8A545E8128669271005C3788 /* jmt */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +323,14 @@
 			files = (
 				8A3821F528662D3A00395BE5 /* Josiah_Modding_Tools_3UITests.swift in Sources */,
 				8A3821F728662D3A00395BE5 /* Josiah_Modding_Tools_3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A545E7E28669271005C3788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A545E8528669271005C3788 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +600,28 @@
 			};
 			name = Release;
 		};
+		8A545E8728669271005C3788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A545E8828669271005C3788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,6 +657,15 @@
 			buildConfigurations = (
 				8A38220128662D3A00395BE5 /* Debug */,
 				8A38220228662D3A00395BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A545E8628669271005C3788 /* Build configuration list for PBXNativeTarget "jmt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A545E8728669271005C3788 /* Debug */,
+				8A545E8828669271005C3788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
