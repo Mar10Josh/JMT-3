@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "edc420991f171d80e78917f0de7b2355e18624b5795ccb3476c196860eb332b7"
+    }
+  ],
+  "containerPath" : "/Users/josiah/Downloads/Josiah Modding Tools 3/Josiah Modding Tools 3.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/josiah/Downloads/Josiah Modding Tools 3/Builds",
+      "buildProductsPath" : "/Users/josiah/Downloads/Josiah Modding Tools 3/Builds",
+      "derivedDataPath" : "/Users/josiah/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/josiah/Library/Developer/Xcode/DerivedData/Josiah_Modding_Tools_3-fqxywublhhavbmflnlviftmctjjq/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/josiah/Library/Developer/Xcode/DerivedData/Josiah_Modding_Tools_3-fqxywublhhavbmflnlviftmctjjq/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/josiah/Downloads/Josiah Modding Tools 3/Builds/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

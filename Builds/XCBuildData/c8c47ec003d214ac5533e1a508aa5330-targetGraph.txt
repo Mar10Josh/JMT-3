@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+JMTWidgetExtension in Josiah Modding Tools 3, no dependencies
+Josiah Modding Tools 3 in Josiah Modding Tools 3, depends on:
+JMTWidgetExtension in Josiah Modding Tools 3 (explicit)

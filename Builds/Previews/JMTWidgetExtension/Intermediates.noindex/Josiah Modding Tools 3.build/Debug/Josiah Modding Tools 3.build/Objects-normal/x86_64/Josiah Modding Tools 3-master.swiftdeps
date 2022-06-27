@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "1f9836559ceb6bc0a3e4cce06e042457fedbe7baf637eecaa37eeb0032a1779c"
+build_start_time: [1656119219, 360631942]
+build_end_time: [1656119221, 222478866]
+inputs:
+  ? "/Users/josiah/Downloads/Josiah Modding Tools 3/Builds/Previews/JMTWidgetExtension/Intermediates.noindex/Josiah Modding Tools 3.build/Debug/Josiah Modding Tools 3.build/DerivedSources/IntentDefinitionGenerated/JMTWidget/ConfigurationIntent.swift"
+  : [1656119219, 245383501]
+  "/Users/josiah/Downloads/Josiah Modding Tools 3/Josiah Modding Tools 3/AppDelegate.swift": [1656092082, 928096294]
+  "/Users/josiah/Downloads/Josiah Modding Tools 3/Josiah Modding Tools 3/ViewController.swift": [1656092082, 934702396]

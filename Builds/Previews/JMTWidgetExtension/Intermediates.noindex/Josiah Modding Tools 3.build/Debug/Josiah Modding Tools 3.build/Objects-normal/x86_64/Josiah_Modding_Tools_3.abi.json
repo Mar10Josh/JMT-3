@@ -1,0 +1,1639 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "Josiah_Modding_Tools_3",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewController",
+      "printedName": "ViewController",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController(im)viewDidLoad",
+          "mangledName": "$s22Josiah_Modding_Tools_314ViewControllerC11viewDidLoadyyF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "representedObject",
+          "printedName": "representedObject",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController(py)representedObject",
+          "mangledName": "$s22Josiah_Modding_Tools_314ViewControllerC17representedObjectypSgvp",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "representedObject",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController(im)representedObject",
+              "mangledName": "$s22Josiah_Modding_Tools_314ViewControllerC17representedObjectypSgvg",
+              "moduleName": "Josiah_Modding_Tools_3",
+              "overriding": true,
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "representedObject",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController(im)setRepresentedObject:",
+              "mangledName": "$s22Josiah_Modding_Tools_314ViewControllerC17representedObjectypSgvs",
+              "moduleName": "Josiah_Modding_Tools_3",
+              "overriding": true,
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setRepresentedObject:",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewController",
+              "printedName": "Josiah_Modding_Tools_3.ViewController",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s22Josiah_Modding_Tools_314ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Josiah_Modding_Tools_3.ViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewController",
+                  "printedName": "Josiah_Modding_Tools_3.ViewController",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController(im)initWithCoder:",
+          "mangledName": "$s22Josiah_Modding_Tools_314ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ViewController",
+      "mangledName": "$s22Josiah_Modding_Tools_314ViewControllerC",
+      "moduleName": "Josiah_Modding_Tools_3",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "AppKit.NSViewController",
+        "AppKit.NSResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "Josiah_Modding_Tools_3",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "applicationDidFinishLaunching",
+          "printedName": "applicationDidFinishLaunching(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)AppDelegate(im)applicationDidFinishLaunching:",
+          "mangledName": "$s22Josiah_Modding_Tools_311AppDelegateC29applicationDidFinishLaunchingyy10Foundation12NotificationVF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "isOpen": true,
+          "objc_name": "applicationDidFinishLaunching:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "applicationWillTerminate",
+          "printedName": "applicationWillTerminate(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)AppDelegate(im)applicationWillTerminate:",
+          "mangledName": "$s22Josiah_Modding_Tools_311AppDelegateC24applicationWillTerminateyy10Foundation12NotificationVF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "isOpen": true,
+          "objc_name": "applicationWillTerminate:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "applicationSupportsSecureRestorableState",
+          "printedName": "applicationSupportsSecureRestorableState(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSApplication",
+              "printedName": "AppKit.NSApplication",
+              "usr": "c:objc(cs)NSApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)AppDelegate(im)applicationSupportsSecureRestorableState:",
+          "mangledName": "$s22Josiah_Modding_Tools_311AppDelegateC40applicationSupportsSecureRestorableStateySbSo13NSApplicationCF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "isOpen": true,
+          "objc_name": "applicationSupportsSecureRestorableState:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:22Josiah_Modding_Tools_311AppDelegateC5$mainyyFZ",
+          "mangledName": "$s22Josiah_Modding_Tools_311AppDelegateC5$mainyyFZ",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "Josiah_Modding_Tools_3.AppDelegate",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s22Josiah_Modding_Tools_311AppDelegateCACycfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)AppDelegate",
+      "mangledName": "$s22Josiah_Modding_Tools_311AppDelegateC",
+      "moduleName": "Josiah_Modding_Tools_3",
+      "isOpen": true,
+      "declAttributes": [
+        "MainType",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Intents",
+      "printedName": "Intents",
+      "declKind": "Import",
+      "moduleName": "Josiah_Modding_Tools_3"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ConfigurationIntent",
+      "printedName": "ConfigurationIntent",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntent",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntent",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent(im)init",
+          "mangledName": "$s22Josiah_Modding_Tools_319ConfigurationIntentCACycfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntent?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntent",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntent",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent(im)initWithCoder:",
+          "mangledName": "$s22Josiah_Modding_Tools_319ConfigurationIntentC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent",
+      "mangledName": "$s22Josiah_Modding_Tools_319ConfigurationIntentC",
+      "moduleName": "Josiah_Modding_Tools_3",
+      "isOpen": true,
+      "intro_Macosx": "11.0",
+      "intro_iOS": "12.0",
+      "intro_watchOS": "5.0",
+      "objc_name": "ConfigurationIntent",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "Available",
+        "Available",
+        "Available",
+        "Available"
+      ],
+      "superclassUsr": "c:objc(cs)INIntent",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "Intents.INIntent",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_INIntentSetImageKeyPath",
+          "printedName": "_INIntentSetImageKeyPath",
+          "usr": "s:7Intents24_INIntentSetImageKeyPathP",
+          "mangledName": "$s7Intents24_INIntentSetImageKeyPathP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "INIntentSetImageKeyPath",
+          "printedName": "INIntentSetImageKeyPath",
+          "usr": "s:7Intents23INIntentSetImageKeyPathP",
+          "mangledName": "$s7Intents23INIntentSetImageKeyPathP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ConfigurationIntentHandling",
+      "printedName": "ConfigurationIntentHandling",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "confirm",
+          "printedName": "confirm(intent:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntent",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntent",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponse) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponse",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponse",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(pl)ConfigurationIntentHandling(im)confirmConfiguration:completion:",
+          "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentHandlingP7confirm6intent10completionyAA0dE0C_yAA0dE8ResponseCctF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "genericSig": "<τ_0_0 where τ_0_0 : Josiah_Modding_Tools_3.ConfigurationIntentHandling>",
+          "sugared_genericSig": "<Self where Self : Josiah_Modding_Tools_3.ConfigurationIntentHandling>",
+          "protocolReq": true,
+          "objc_name": "confirmConfiguration:completion:",
+          "declAttributes": [
+            "Dynamic",
+            "Optional",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "confirm",
+          "printedName": "confirm(intent:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntentResponse",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponse",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntent",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntent",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(pl)ConfigurationIntentHandling(im)confirmConfiguration:completion:",
+          "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentHandlingP7confirm6intentAA0dE8ResponseCAA0dE0C_tYaF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "genericSig": "<τ_0_0 where τ_0_0 : Josiah_Modding_Tools_3.ConfigurationIntentHandling>",
+          "sugared_genericSig": "<Self where Self : Josiah_Modding_Tools_3.ConfigurationIntentHandling>",
+          "protocolReq": true,
+          "intro_Macosx": "12.0",
+          "intro_iOS": "15.0",
+          "intro_watchOS": "8.0",
+          "objc_name": "confirmConfiguration:completion:",
+          "declAttributes": [
+            "Dynamic",
+            "Optional",
+            "ObjC",
+            "Available",
+            "Available",
+            "Available"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "handle",
+          "printedName": "handle(intent:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntent",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntent",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponse) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponse",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponse",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(pl)ConfigurationIntentHandling(im)handleConfiguration:completion:",
+          "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentHandlingP6handle6intent10completionyAA0dE0C_yAA0dE8ResponseCctF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "genericSig": "<τ_0_0 where τ_0_0 : Josiah_Modding_Tools_3.ConfigurationIntentHandling>",
+          "sugared_genericSig": "<Self where Self : Josiah_Modding_Tools_3.ConfigurationIntentHandling>",
+          "protocolReq": true,
+          "objc_name": "handleConfiguration:completion:",
+          "declAttributes": [
+            "Dynamic",
+            "Optional",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "handle",
+          "printedName": "handle(intent:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntentResponse",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponse",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntent",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntent",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntent"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(pl)ConfigurationIntentHandling(im)handleConfiguration:completion:",
+          "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentHandlingP6handle6intentAA0dE8ResponseCAA0dE0C_tYaF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "genericSig": "<τ_0_0 where τ_0_0 : Josiah_Modding_Tools_3.ConfigurationIntentHandling>",
+          "sugared_genericSig": "<Self where Self : Josiah_Modding_Tools_3.ConfigurationIntentHandling>",
+          "protocolReq": true,
+          "intro_Macosx": "12.0",
+          "intro_iOS": "15.0",
+          "intro_watchOS": "8.0",
+          "objc_name": "handleConfiguration:completion:",
+          "declAttributes": [
+            "Dynamic",
+            "Optional",
+            "ObjC",
+            "Available",
+            "Available",
+            "Available"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "c:@M@Josiah_Modding_Tools_3@objc(pl)ConfigurationIntentHandling",
+      "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentHandlingP",
+      "moduleName": "Josiah_Modding_Tools_3",
+      "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+      "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+      "intro_Macosx": "11.0",
+      "intro_iOS": "12.0",
+      "intro_watchOS": "5.0",
+      "objc_name": "ConfigurationIntentHandling",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "Available",
+        "Available",
+        "Available",
+        "Available",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ConfigurationIntentResponseCode",
+      "printedName": "ConfigurationIntentResponseCode",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "unspecified",
+          "printedName": "unspecified",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type) -> Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationIntentResponseCode",
+                      "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                      "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode@ConfigurationIntentResponseCodeUnspecified",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO11unspecifiedyA2CmF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "ready",
+          "printedName": "ready",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type) -> Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationIntentResponseCode",
+                      "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                      "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode@ConfigurationIntentResponseCodeReady",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO5readyyA2CmF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "continueInApp",
+          "printedName": "continueInApp",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type) -> Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationIntentResponseCode",
+                      "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                      "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode@ConfigurationIntentResponseCodeContinueInApp",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO13continueInAppyA2CmF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "inProgress",
+          "printedName": "inProgress",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type) -> Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationIntentResponseCode",
+                      "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                      "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode@ConfigurationIntentResponseCodeInProgress",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO10inProgressyA2CmF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Var",
+          "name": "success",
+          "printedName": "success",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type) -> Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationIntentResponseCode",
+                      "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                      "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode@ConfigurationIntentResponseCodeSuccess",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO7successyA2CmF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "fixedbinaryorder": 4
+        },
+        {
+          "kind": "Var",
+          "name": "failure",
+          "printedName": "failure",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type) -> Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationIntentResponseCode",
+                      "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                      "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode@ConfigurationIntentResponseCodeFailure",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO7failureyA2CmF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "fixedbinaryorder": 5
+        },
+        {
+          "kind": "Var",
+          "name": "failureRequiringAppLaunch",
+          "printedName": "failureRequiringAppLaunch",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type) -> Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationIntentResponseCode",
+                      "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                      "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode@ConfigurationIntentResponseCodeFailureRequiringAppLaunch",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO25failureRequiringAppLaunchyA2CmF",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "fixedbinaryorder": 6
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO8rawValueACSgSi_tcfc",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO8rawValueACSgSi_tcfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "implicit": true,
+          "declAttributes": [
+            "Inlinable"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO8rawValueSivp",
+          "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO8rawValueSivp",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO8rawValueSivg",
+              "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO8rawValueSivg",
+              "moduleName": "Josiah_Modding_Tools_3",
+              "implicit": true,
+              "declAttributes": [
+                "Inlinable"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode",
+      "mangledName": "$s22Josiah_Modding_Tools_331ConfigurationIntentResponseCodeO",
+      "moduleName": "Josiah_Modding_Tools_3",
+      "intro_Macosx": "11.0",
+      "intro_iOS": "12.0",
+      "intro_watchOS": "5.0",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "Available",
+        "Available",
+        "Available",
+        "Available",
+        "RawDocComment"
+      ],
+      "enumRawTypeName": "Int",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ConfigurationIntentResponse",
+      "printedName": "ConfigurationIntentResponse",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "code",
+          "printedName": "code",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntentResponseCode",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse(py)code",
+          "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentResponseC4codeAA0deF4CodeOvp",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "SetterAccess",
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse(im)code",
+              "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentResponseC4codeAA0deF4CodeOvg",
+              "moduleName": "Josiah_Modding_Tools_3",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponseCode",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Josiah_Modding_Tools_327ConfigurationIntentResponseC4codeAA0deF4CodeOvs",
+              "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentResponseC4codeAA0deF4CodeOvs",
+              "moduleName": "Josiah_Modding_Tools_3",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:22Josiah_Modding_Tools_327ConfigurationIntentResponseC4codeAA0deF4CodeOvM",
+              "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentResponseC4codeAA0deF4CodeOvM",
+              "moduleName": "Josiah_Modding_Tools_3",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(code:userActivity:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntentResponse",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponse",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntentResponseCode",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponseCode",
+              "usr": "c:@M@Josiah_Modding_Tools_3@E@ConfigurationIntentResponseCode"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSUserActivity?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSUserActivity",
+                  "printedName": "Foundation.NSUserActivity",
+                  "usr": "c:objc(cs)NSUserActivity"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse(im)initWithCode:userActivity:",
+          "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentResponseC4code12userActivityAcA0deF4CodeO_So06NSUserI0CSgtcfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "objc_name": "initWithCode:userActivity:",
+          "declAttributes": [
+            "Dynamic",
+            "Convenience",
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "init_kind": "Convenience"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConfigurationIntentResponse",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponse",
+              "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse(im)init",
+          "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentResponseCACycfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponse?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationIntentResponse",
+                  "printedName": "Josiah_Modding_Tools_3.ConfigurationIntentResponse",
+                  "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse(im)initWithCoder:",
+          "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentResponseC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Josiah_Modding_Tools_3",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Josiah_Modding_Tools_3@objc(cs)ConfigurationIntentResponse",
+      "mangledName": "$s22Josiah_Modding_Tools_327ConfigurationIntentResponseC",
+      "moduleName": "Josiah_Modding_Tools_3",
+      "isOpen": true,
+      "intro_Macosx": "11.0",
+      "intro_iOS": "12.0",
+      "intro_watchOS": "5.0",
+      "objc_name": "ConfigurationIntentResponse",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "Available",
+        "Available",
+        "Available",
+        "Available"
+      ],
+      "superclassUsr": "c:objc(cs)INIntentResponse",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "Intents.INIntentResponse",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

@@ -4,15 +4,63 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>3DMod.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>All.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>JMTWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Josiah Modding Tools 3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>Mod.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>jmt.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8A3821D428662D3200395BE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A3821E528662D3A00395BE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A3821EF28662D3A00395BE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A545E8128669271005C3788</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A545EE22867D50D005C3788</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

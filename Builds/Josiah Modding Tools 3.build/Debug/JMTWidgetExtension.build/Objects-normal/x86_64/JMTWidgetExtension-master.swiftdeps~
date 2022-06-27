@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "45d6f1d04c0ebe33acc63a859bed5755145f0cc94b54a8269c6c728da0a82453"
+build_start_time: [1656119349, 668781042]
+build_end_time: [1656119350, 355516910]
+inputs:
+  ? "/Users/josiah/Downloads/Josiah Modding Tools 3/Builds/Josiah Modding Tools 3.build/Debug/JMTWidgetExtension.build/DerivedSources/IntentDefinitionGenerated/JMTWidget/ConfigurationIntent.swift"
+  : [1656119349, 543764591]
+  "/Users/josiah/Downloads/Josiah Modding Tools 3/JMTWidget/JMTWidget.swift": [1656119348, 592402458]
